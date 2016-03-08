@@ -1,0 +1,35 @@
+WG1:
+Sort by scores:
+Integrated_Authority_File
+International_Standard_Book_Number
+National_Diet_Library
+Information_technology
+Fuel_oil
+
+Sort by inlinks:
+International_Standard_Book_Number
+Energy
+Renewable_energy
+Integrated_Authority_File
+Engineering
+
+WG2:
+Sort by scores:
+WT21-B37-76
+WT21-B37-75
+WT25-B39-116
+WT23-B21-53
+WT24-B26-10
+
+Sort by inlink:
+WT21-B37-76
+WT21-B37-75
+WT01-B18-225
+WT08-B19-222
+WT08-B18-400
+
+Brief Analysis ­
+
+We can see that there are pages with high in­link values have low page ranks, which means large number of inlinks is not the absolute reason to contribute a high pagerank.
+
+In WG1, International_Standard_Book_Number and Integrated_Authority_File not only have high Page Rank, but also have high in-links, so do WT21-B37-76 and WT21-B37-75 in WG2.

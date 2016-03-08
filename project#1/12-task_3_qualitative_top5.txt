@@ -1,0 +1,31 @@
+WG1:
+Sort by scores:
+Integrated_Authority_File
+International_Standard_Book_Number
+National_Diet_Library
+Information_technology
+Fuel_oil
+
+Sort by inlinks:
+International_Standard_Book_Number
+Energy
+Renewable_energy
+Integrated_Authority_File
+Engineering
+
+WG2:
+Sort by scores:
+WT21-B37-76
+WT21-B37-75
+WT25-B39-116
+WT23-B21-53
+WT24-B26-10
+
+Sort by inlink:
+WT21-B37-76
+WT21-B37-75
+WT01-B18-225
+WT08-B19-222
+WT08-B18-400
+
+According to the top 5 ranking results above, we can conclude that the Page Rank scores is related to the number of inlink nodes, but it's not absolute, because the number of inlink nodes of a link do enhance the probability of the link being entered, but links from some hot links also have high probability even though they may not have many inlink nodes.
