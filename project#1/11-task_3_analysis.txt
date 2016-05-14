@@ -1,0 +1,13 @@
+WG1:
+0.85 vs 0.95 --- 0.670  
+0.95 vs inlink --- 0.467
+
+WG2:
+0.85 vs 0.95 --- 0.646  
+0.95 vs inlink --- 0.154
+
+According to the results I got, the sort of one file with different teleportation factors changed.
+
+The two Kendall Tau values of "0.85 vs 0.95" in WG1 and WG2 tell us that the different teleportation values result in different rank. 
+
+In WG1, the Kendall Tau of "0.95 vs inlink" are not changed or say not be changed apparently, because in WG1, it's easy to get convergency. However, in WG2, compared with the 0.453 (0.85 vs inlink of WG2), the Kendall Tau value decreases to 0.154, the correlation between two sorted file get lower.

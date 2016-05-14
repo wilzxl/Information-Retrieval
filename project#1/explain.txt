@@ -1,0 +1,22 @@
+  In most situations (including task.2), BFS is the preferable algorithm to run a crawler. Since in a good designed webpage, relevant valuable sites are not "deep", using BFS will save much time to find more valuable URLs. Besides, BFS avoids the recursive way used by DFS which often results in circular loops.
+
+  Top 5 URLs (topical content) of BFS crawler and DFS crawler are as following:
+BFS:
+ key_crawled=1 depth=1 for http://en.wikipedia.org/wiki/Sustainable_energy
+ key_crawled=2 depth=2 for http://en.wikipedia.org/wiki/Energy_conservation
+ key_crawled=3 depth=2 for http://en.wikipedia.org/wiki/Cogeneration
+ key_crawled=4 depth=2 for http://en.wikipedia.org/wiki/Efficient_energy_use
+ key_crawled=5 depth=2 for http://en.wikipedia.org/wiki/Geothermal_heat_pump
+ 
+DFS:
+ crawled=1 depth=1 for http://en.wikipedia.org/wiki/Sustainable_energy
+ crawled=2 depth=2 for http://en.wikipedia.org/wiki/Energy_conservation
+ crawled=3 depth=3 for http://en.wikipedia.org/wiki/Cogeneration
+ crawled=4 depth=4 for http://en.wikipedia.org/wiki/Efficient_energy_use
+ crawled=5 depth=5 for http://en.wikipedia.org/wiki/Compact_fluorescent_lamp
+ 
+  Our seedpage is "sustainable energy", and the keyphrase is "solar". So of course we prefer to find sites containing "solar" more related to "energy". We can browse these sites above, and easily find URLs in BFS list are more qualified. 
+
+  For example, the former four sites in each algorithm are the same, and we can find that they all have a table called “part of a series about sustainable energy”, sites in this table are relevant and informative, we cannot tell which algorithm is better for fetching more informative URLs until we compare the 5th URLs with each. 
+
+  In the 5th site of BFS list, we can still find content relevant to "sustainable energy". However, in the 5th site of DFS list, it's just about "fluorescent lamp". It still contains keyphrase "solar", but has little relevance.
